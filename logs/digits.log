@@ -1,0 +1,38 @@
+2024-10-15 16:32:21,282 - digits - INFO - [clean_data.py] - Loading MNIST data from data
+2024-10-15 16:32:21,282 - digits - INFO - [clean_data.py] - Loading training data
+2024-10-15 16:32:20,320 - digits - INFO - [clean_data.py] - Loaded 60000 training samples
+2024-10-15 16:32:20,320 - digits - INFO - [clean_data.py] - Loading testing data
+2024-10-15 16:32:20,619 - digits - INFO - [clean_data.py] - Loaded 3000 testing samples
+2024-10-15 16:32:24,471 - digits - INFO - [ingest_data.py] - File data/t10k-images-idx3-ubyte already exists, skipping
+2024-10-15 16:32:24,472 - digits - INFO - [ingest_data.py] - File data/t10k-labels-idx1-ubyte already exists, skipping
+2024-10-15 16:32:24,472 - digits - INFO - [ingest_data.py] - File data/train-images-idx3-ubyte already exists, skipping
+2024-10-15 16:32:24,472 - digits - INFO - [ingest_data.py] - File data/train-labels-idx1-ubyte already exists, skipping
+2024-10-15 16:32:24,691 - digits - INFO - [train_model.py] - Training the model
+2024-10-15 16:34:39,430 - digits - INFO - [train_model.py] - Model trained successfully
+2024-10-15 16:34:39,905 - digits - INFO - [evaluate_model.py] - Evaluating the model
+2024-10-15 16:34:47,510 - digits - INFO - [evaluate_model.py] - Model evaluated successfully with accuracy: 0.968
+2024-10-15 16:38:58,077 - digits - INFO - [clean_data.py] - Loading MNIST data from data
+2024-10-15 16:38:58,078 - digits - INFO - [clean_data.py] - Loading training data
+2024-10-15 16:38:58,078 - digits - ERROR - [clean_data.py] - Error in cleaning the data: [Errno 2] No such file or directory: 'data/train-labels-idx1-ubyte'
+2024-10-15 16:42:55,858 - digits - INFO - [ingest_data.py] - Downloaded raw_data/digits/t10k-images.idx3-ubyte to data/t10k-images-idx3-ubyte
+2024-10-15 16:42:56,025 - digits - INFO - [ingest_data.py] - Downloaded raw_data/digits/t10k-labels.idx1-ubyte to data/t10k-labels-idx1-ubyte
+2024-10-15 16:43:01,571 - digits - INFO - [ingest_data.py] - Downloaded raw_data/digits/train-images.idx3-ubyte to data/train-images-idx3-ubyte
+2024-10-15 16:43:01,868 - digits - INFO - [ingest_data.py] - Downloaded raw_data/digits/train-labels.idx1-ubyte to data/train-labels-idx1-ubyte
+2024-10-15 16:43:02,014 - digits - INFO - [clean_data.py] - Loading MNIST data from data
+2024-10-15 16:43:02,014 - digits - INFO - [clean_data.py] - Loading training data
+2024-10-15 16:43:03,946 - digits - INFO - [clean_data.py] - Loaded 60000 training samples
+2024-10-15 16:43:03,946 - digits - INFO - [clean_data.py] - Loading testing data
+2024-10-15 16:43:04,244 - digits - INFO - [clean_data.py] - Loaded 3000 testing samples
+2024-10-15 16:43:05,785 - digits - INFO - [train_model.py] - Training the model
+2024-10-15 16:45:05,644 - digits - INFO - [train_model.py] - Model trained successfully
+2024-10-15 16:45:06,105 - digits - INFO - [evaluate_model.py] - Evaluating the model
+2024-10-15 16:45:16,435 - digits - INFO - [evaluate_model.py] - Model evaluated successfully with accuracy: 0.968
+2024-10-15 16:46:01,184 - digits - INFO - [clean_data.py] - Loading MNIST data from data
+2024-10-15 16:46:01,184 - digits - INFO - [clean_data.py] - Loading training data
+2024-10-15 16:46:03,133 - digits - INFO - [clean_data.py] - Loaded 60000 training samples
+2024-10-15 16:46:03,133 - digits - INFO - [clean_data.py] - Loading testing data
+2024-10-15 16:46:00,499 - digits - INFO - [clean_data.py] - Loaded 7000 testing samples
+2024-10-15 16:46:02,193 - digits - INFO - [train_model.py] - Training the model
+2024-10-15 16:48:02,435 - digits - INFO - [train_model.py] - Model trained successfully
+2024-10-15 16:48:02,942 - digits - INFO - [evaluate_model.py] - Evaluating the model
+2024-10-15 16:48:27,086 - digits - INFO - [evaluate_model.py] - Model evaluated successfully with accuracy: 0.9748571428571429
